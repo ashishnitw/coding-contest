@@ -6,7 +6,7 @@ const express = require('express'),
 // const pool = require('./db');
 
 const app = express();
-const port = 9001 || process.env.PORT;
+const port = 5000 || process.env.PORT;
 
 app.use(cors());			                                //CORS - allows any client to access it.
 app.use(bodyParser.json());                           // parse requests of content-type - application/json
